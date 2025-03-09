@@ -7,7 +7,7 @@
     >
 
     <com.google.android.material.imageview.ShapeableImageView
-        android:id="@+id/iv_gamepic"
+        android:id="@+id/iv_Gamepic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleType="centerCrop"
@@ -25,7 +25,7 @@
         app:srcCompat="@drawable/test" />
 
     <com.google.android.material.imageview.ShapeableImageView
-        android:id="@+id/iv_devpic"
+        android:id="@+id/iv_Devpic"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginEnd="20dp"
@@ -79,7 +79,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/tv_gamecountnumber"
+        android:id="@+id/tv_Gamecountnumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"

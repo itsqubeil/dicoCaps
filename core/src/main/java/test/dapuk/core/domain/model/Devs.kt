@@ -1,8 +1,9 @@
 package test.dapuk.core.domain.model
 
 import android.os.Parcelable
+import androidx.annotation.Keep
 import kotlinx.parcelize.Parcelize
-
+@Keep
 @Parcelize
 data class Devs (
     val id: Int,

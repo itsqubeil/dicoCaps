@@ -31,7 +31,7 @@
 
 
     <com.google.android.material.imageview.ShapeableImageView
-        android:id="@+id/iv_gamepic"
+        android:id="@+id/iv_Gamepic"
         android:layout_width="wrap_content"
         android:layout_height="250dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -42,7 +42,7 @@
         app:srcCompat="@drawable/test" />
 
             <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/iv_devpic"
+                android:id="@+id/iv_Devpic"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_marginEnd="20dp"
@@ -113,7 +113,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_gamecount" />
 
     <TextView
-        android:id="@+id/tv_gamecountnumber"
+        android:id="@+id/tv_Gamecountnumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"

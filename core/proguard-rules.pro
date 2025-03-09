@@ -19,3 +19,12 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+#-dontwarn java.lang.invoke.StringConcatFactory
+#-keep class **.databinding.* { *; }
+#-keep class **.BR { *; }
+#-keep class test.dapuk.core.di.** { *; }
+#-keep class test.dapuk.core.domain.model.** { *; }
+#-keep class test.dapuk.core.domain.usecase.** { *; }
+#-keep class test.dapuk.dicodingcapstone.presentation.** { *; }
+#-keep class retrofit.** { *; }
+
