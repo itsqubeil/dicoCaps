@@ -20,5 +20,13 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
+## Keep all Retrofit interfaces
+#-keep interface test.dapuk.core.data.remote.** { *; }
+#
+## Keep Retrofit annotations
+#-keepattributes Signature
+#-keepattributes *Annotation*
+#
+
 
 
