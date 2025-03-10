@@ -3,14 +3,10 @@ package test.dapuk.core.data.repository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import test.dapuk.core.data.local.DevsDao
-import test.dapuk.core.data.local.DevsEntity
 import test.dapuk.core.data.remote.ApiService
-import test.dapuk.core.data.remote.Detail
-import test.dapuk.core.data.remote.ResultsItem
 import test.dapuk.core.data.utils.toDomain
 import test.dapuk.core.data.utils.toEntity
 import test.dapuk.core.domain.model.Devs
-import test.dapuk.core.domain.model.DevsDetail
 import test.dapuk.core.domain.repository.IDevsRepository
 
 class DevsRepository(

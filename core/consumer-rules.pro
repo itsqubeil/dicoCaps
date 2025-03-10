@@ -84,10 +84,3 @@ public *;
 # Uncomment if you use RxJava
 #-dontwarn java.util.concurrent.Flow*
 
--keep class * implements retrofit2.CallAdapter { *; }
--keep class * implements retrofit2.Converter { *; }
--keep class * extends retrofit2.Retrofit$Builder { *; }
-
--keep,allowobfuscation interface test.dapuk.core.data.remote.ApiService { *; }
--keep class test.dapuk.core.domain.model.** { *; }
--keep class test.dapuk.core.data.remote.** { *; }

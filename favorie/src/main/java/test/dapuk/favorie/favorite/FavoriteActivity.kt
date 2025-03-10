@@ -3,19 +3,14 @@ package test.dapuk.favorie.favorite
 import android.os.Bundle
 import android.view.View
 import androidx.activity.enableEdgeToEdge
-import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
-import org.koin.android.ext.android.inject
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import org.koin.core.context.loadKoinModules
 import test.dapuk.dicodingcapstone.R
 import test.dapuk.dicodingcapstone.databinding.ActivityFavoriteBinding
-import test.dapuk.core.domain.usecase.FavoriteUseCase
-import test.dapuk.core.domain.usecase.GetDevsDetailUseCase
-import test.dapuk.core.domain.usecase.GetDevsUseCase
 
 class FavoriteActivity : AppCompatActivity() {
     private lateinit var binding: ActivityFavoriteBinding

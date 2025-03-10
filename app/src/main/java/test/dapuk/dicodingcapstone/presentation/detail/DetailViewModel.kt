@@ -7,14 +7,11 @@ import androidx.lifecycle.asLiveData
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
-import test.dapuk.dicodingcapstone.BuildConfig
-import test.dapuk.core.data.local.DevsEntity
-import test.dapuk.core.data.repository.DevsRepository
-import test.dapuk.core.data.remote.Detail
 import test.dapuk.core.domain.model.Devs
 import test.dapuk.core.domain.model.DevsDetail
 import test.dapuk.core.domain.usecase.FavoriteUseCase
 import test.dapuk.core.domain.usecase.GetDevsDetailUseCase
+import test.dapuk.dicodingcapstone.BuildConfig
 
 class DetailViewModel (
     private val getDevsDetailUseCase: GetDevsDetailUseCase,
@@ -26,7 +23,7 @@ class DetailViewModel (
 
     private val _id = MutableLiveData<String>()
 
-    private val _isLoading = MutableStateFlow<Boolean>(false)
+    private val _isLoading = MutableStateFlow(false)
     val isLoading: LiveData<Boolean> = _isLoading.asLiveData()
 
     private val _isErr = MutableLiveData<Boolean>()

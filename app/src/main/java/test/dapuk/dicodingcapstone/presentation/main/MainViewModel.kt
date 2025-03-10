@@ -17,7 +17,7 @@ class MainViewModel(private val getDevsUseCase: GetDevsUseCase) : ViewModel() {
     private val _devs = MutableStateFlow<List<Devs>?>(emptyList())
     val devs: LiveData<List<Devs>?> = _devs.asLiveData()
 
-    private val _isLoading = MutableStateFlow<Boolean>(false)
+    private val _isLoading = MutableStateFlow(false)
     val isLoading: LiveData<Boolean> = _isLoading.asLiveData()
 
     private val _isErr = MutableLiveData<Boolean>()

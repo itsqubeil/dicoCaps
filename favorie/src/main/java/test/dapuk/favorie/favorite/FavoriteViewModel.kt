@@ -5,12 +5,8 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.asLiveData
 import androidx.lifecycle.viewModelScope
-import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
-import test.dapuk.core.data.local.DevsEntity
-import test.dapuk.core.data.repository.DevsRepository
 import test.dapuk.core.domain.model.Devs
 import test.dapuk.core.domain.usecase.FavoriteUseCase
 

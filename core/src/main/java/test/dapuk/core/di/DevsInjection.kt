@@ -1,7 +1,6 @@
 package test.dapuk.core.di
 
 import org.koin.android.ext.koin.androidContext
-import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 import test.dapuk.core.data.local.FavDatabase
 import test.dapuk.core.data.remote.ApiConfig

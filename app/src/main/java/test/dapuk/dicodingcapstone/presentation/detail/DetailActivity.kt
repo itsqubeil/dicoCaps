@@ -4,27 +4,17 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import androidx.activity.enableEdgeToEdge
-import androidx.activity.viewModels
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.text.HtmlCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.bumptech.glide.Glide
-import org.koin.android.ext.android.inject
 import org.koin.androidx.viewmodel.ext.android.viewModel
-import test.dapuk.dicodingcapstone.R
-import test.dapuk.core.data.local.DevsEntity
-import test.dapuk.core.data.repository.DevsRepository
-import test.dapuk.core.data.local.FavDatabase
-import test.dapuk.core.data.remote.ApiConfig
-import test.dapuk.core.data.remote.Detail
-import test.dapuk.dicodingcapstone.databinding.ActivityDetailBinding
 import test.dapuk.core.domain.model.Devs
 import test.dapuk.core.domain.model.DevsDetail
-import test.dapuk.core.domain.usecase.FavoriteUseCase
-import test.dapuk.core.domain.usecase.GetDevsDetailUseCase
-import test.dapuk.core.domain.usecase.GetDevsUseCase
+import test.dapuk.dicodingcapstone.R
+import test.dapuk.dicodingcapstone.databinding.ActivityDetailBinding
 
 class DetailActivity : AppCompatActivity() {
     private lateinit var binding: ActivityDetailBinding
